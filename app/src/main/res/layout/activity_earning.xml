@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_earning"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.halanx.halanx.earning">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/btnhome"
+            android:background="@mipmap/home"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button6"
+            android:layout_toEndOf="@+id/button6"
+            android:id="@+id/btnearning"
+            android:layout_weight="1"
+            android:background="@mipmap/earning"/>
+
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button7"
+            android:layout_toEndOf="@+id/button7"
+            android:id="@+id/btnrating"
+            android:layout_weight="1"
+            android:background="@mipmap/rating"/>
+
+        <Button
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnaccount"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:layout_toEndOf="@+id/btnaccount"
+            android:background="@mipmap/account"/>
+    </LinearLayout>
+
+</RelativeLayout>

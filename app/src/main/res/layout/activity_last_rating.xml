@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.halanx.halanx.last_rating">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/account"
+        android:id="@+id/image"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:numStars="5"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:text="submit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ijkl"
+        android:id="@+id/button2"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/btnabcd"
+        android:layout_alignStart="@+id/btnabcd" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="qrst"
+        android:id="@+id/button4"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="efgh"
+        android:id="@+id/btnefgh"
+        android:layout_marginEnd="15dp"
+        android:layout_below="@+id/ratingBar"
+        android:layout_alignEnd="@+id/ratingBar"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abcd"
+        android:id="@+id/btnabcd"
+        android:layout_alignBaseline="@+id/btnefgh"
+        android:layout_alignBottom="@+id/btnefgh"
+        android:layout_alignStart="@+id/ratingBar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mnop"
+        android:id="@+id/button3"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignStart="@+id/btnefgh" />
+</RelativeLayout>

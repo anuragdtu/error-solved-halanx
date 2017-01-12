@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.halanx.halanx.register">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:text="First Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvfirst"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Last Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvlast"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginEnd="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/tvfirst"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignEnd="@+id/tvfirst" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/tvlast"
+        android:id="@+id/editText3"
+        android:layout_alignEnd="@+id/tvlast"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/tvlast" />
+
+    <TextView
+        android:text="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvemail"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editText2"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/tvemail"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText4"
+        android:layout_toStartOf="@+id/editText3" />
+
+    <TextView
+        android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tvemail"
+        android:id="@+id/tvpassword"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText4"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/tvpassword"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText5"
+        android:layout_alignEnd="@+id/editText4" />
+
+    <TextView
+        android:text="Mobile Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText5"
+        android:id="@+id/tvmobile"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/editText5"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_below="@+id/tvmobile"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText7"
+        android:layout_alignEnd="@+id/tvmobile" />
+
+    <TextView
+        android:text="City"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText7"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tvcity"
+        android:layout_alignEnd="@+id/tvpassword"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/tvcity"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText8"
+        android:layout_alignEnd="@+id/editText7" />
+
+    <TextView
+        android:text="Invite Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_alignParentStart="true"
+        android:id="@+id/tvinvite"
+        android:layout_alignEnd="@+id/editText8"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/tvinvite"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText9"
+        android:layout_alignEnd="@+id/tvinvite" />
+
+    <TextView
+        android:text="* Terms And Conditions Apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/btncontinue"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignEnd="@+id/btncontinue"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:text="Continue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncontinue"
+        android:background="@android:color/background_dark"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/editText9"
+        android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
