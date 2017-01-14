@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="FEEDBACK!
+In this example, the name of the architecture body is DEC_STR, and it is associated with the entity
+declaration with the name DECODER2x4; therefore, it inherits the list of interface ports from that entity
+declaration.In addition to the two component declarations (for INV and NAND3), the architecture body contains a
+signal declaration that declares two signals, ABAR and BBAR, of type BIT. These signals, that represent wires,
+are used to connect the various components that form the decoder. The scope of these signals is restricted to the
+architecture body, and therefore, these signals are not visible outside the architecture body. Contrast these signals
+with the ports of an entity declaration that are available for use within any architecture body associated with the
+entity declaration."
+            android:textSize="25sp"
+            android:layout_centerInParent="true"/>
+    </ScrollView>
+</RelativeLayout>

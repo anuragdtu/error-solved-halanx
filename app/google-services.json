@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "472441711540",
+    "firebase_url": "https://shopper-f64bd.firebaseio.com",
+    "project_id": "shopper-f64bd",
+    "storage_bucket": "shopper-f64bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472441711540:android:9000c759137508f6",
+        "android_client_info": {
+          "package_name": "com.halanx.halanx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472441711540-6grpcovebp07rqanhoc2imqnv5pdr9dk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.halanx.halanx",
+            "certificate_hash": "6B43CB6DD7FDE27DDFC0E4DE76E9CC667717656C"
+          }
+        },
+        {
+          "client_id": "472441711540-fahnbajjegqjb0vomjgbt9rhambs1fas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhOtr5epmG0_iQXklcTCcqXADzzlN7FG0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472441711540-fahnbajjegqjb0vomjgbt9rhambs1fas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

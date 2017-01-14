@@ -18,6 +18,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
 }
 
 dependencies {
@@ -33,3 +36,4 @@ dependencies {
     testCompile 'org.testng:testng:6.9.6'
     testCompile 'org.testng:testng:6.9.6'
 }
+apply plugin: 'com.google.gms.google-services'

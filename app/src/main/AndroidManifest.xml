@@ -34,7 +34,7 @@
             android:label="Register"
             android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".Signin"
+            android:name=".signin"
             android:label="@string/title_activity_signin"
             android:parentActivityName=".MainActivity" />
         <!--
@@ -52,10 +52,16 @@
         <activity
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name=".rating" />
-        <activity android:name=".Account" />
+        <activity android:name=".rating"
+            android:parentActivityName=".MapsActivity"/>
+        <activity android:name=".Account"
+            android:parentActivityName=".MapsActivity"/>
         <activity android:name=".last_rating" />
-        <activity android:name=".earning" />
+        <activity android:name=".earning"
+            android:parentActivityName=".MapsActivity"/>
+        <activity
+            android:name=".popup_feedback"
+            android:theme="@style/AppTheme.mytheme" />
         <activity
             android:name=".MapsActivity2"
             android:label="@string/title_activity_maps2"></activity>

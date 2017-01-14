@@ -1,95 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_rating"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.halanx.halanx.rating">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Your rating here"
-        android:id="@+id/textView"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView"
-        android:layout_marginStart="29dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/star"
+                android:id="@+id/imv"/>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/tvhere"
+                android:text="YOUR TEXT HERE"
+                android:textSize="25sp"
+                android:layout_toRightOf="@+id/imv"
+                android:layout_below="@+id/imv"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEEDBACK! \r\nthis example, the name of the architecture body is DEC_STR, and it is associated with the entity
+declaration with the name DECODER2x4; therefore, it inherits the list of interface ports from that entity
+declaration."
+                android:layout_below="@+id/tvhere"
+                android:id="@+id/tvfeedback"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEEDBACK!
+In this example, the name of the architecture body is DEC_STR, and it is associated with the entity
+declaration with the name DECODER2x4; therefore, it inherits the list of interface ports from that entity
+declaration."
+                android:layout_below="@+id/tvfeedback"
+                android:id="@+id/tvfeedback2"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@mipmap/rating"
-        android:layout_marginStart="93dp"
-        android:layout_marginTop="20dp"
-        android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="FEEDBACK"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/imageView"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="68dp" />
-
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentStart="true"
-        android:id="@+id/editText" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="REWARDS"
-        android:layout_below="@+id/editText"
-        android:id="@+id/TVrewards"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/TVrewards"
-        android:id="@+id/ETrewards"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TOP PERFORMER"
-        android:layout_below="@id/ETrewards"/>
+        </RelativeLayout>
+    </ScrollView>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray">
         <Button
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true"
             android:id="@+id/btnhome"
-            android:background="@mipmap/home"
+            android:background="@mipmap/home_white"
             android:layout_weight="1"/>
 
         <Button
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/button6"
-            android:layout_toEndOf="@+id/button6"
             android:id="@+id/btnearning"
             android:layout_weight="1"
-            android:background="@mipmap/earning"/>
+            android:background="@mipmap/earning_white"/>
 
         <Button
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignTop="@+id/button7"
-            android:layout_toEndOf="@+id/button7"
             android:id="@+id/btnrating"
             android:layout_weight="1"
             android:background="@mipmap/rating"/>
@@ -98,10 +83,9 @@
             android:text=""
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button9"
-            android:layout_alignParentBottom="true"
+            android:id="@+id/btnaccount"
             android:layout_weight="1"
-            android:layout_toEndOf="@+id/btnaccount"
-            android:background="@mipmap/account"/>
+            android:background="@mipmap/account_white"/>
     </LinearLayout>
+
 </RelativeLayout>

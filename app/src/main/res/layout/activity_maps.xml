@@ -55,7 +55,7 @@
             android:layout_toEndOf="@+id/button6"
             android:id="@+id/btnearning"
             android:layout_weight="1"
-            android:background="@mipmap/earning"/>
+            android:background="@mipmap/earning_white"/>
 
         <Button
             android:text=""
@@ -65,7 +65,7 @@
             android:layout_toEndOf="@+id/button7"
             android:id="@+id/btnrating"
             android:layout_weight="1"
-            android:background="@mipmap/rating"/>
+            android:background="@mipmap/rating_white"/>
 
         <Button
             android:text=""
@@ -75,7 +75,7 @@
             android:layout_alignParentBottom="true"
             android:layout_weight="1"
             android:layout_toEndOf="@+id/btnaccount"
-            android:background="@mipmap/account"/>
+            android:background="@mipmap/account_white"/>
     </LinearLayout>
 
 </RelativeLayout>
